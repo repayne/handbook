@@ -30,9 +30,7 @@ Include the following:
 - Location: Your primary work location (city, state).
 - Photo: A headshot photo or image that is unique to you.
 
-### 2. Set up two-factor authentication
-
-[Enable two-factor authentication (2FA)](https://github.com/settings/security):
+### 2. Set up your email
 
 - [Use your work email](https://help.github.com/articles/setting-your-email-in-git) rather than your personal email for work-related commits. This only applies to people with more than one email address tied to their GitHub account. Note that this is different than [setting notifications to go to a specific email address](https://help.github.com/articles/configuring-notification-emails-for-organizations). If you make commits via GitHub&rsquo;s web interface, it will use your &ldquo;primary&rdquo; email address for those commits, so check your [email settings](https://github.com/settings/emails) before making web commits.
 
@@ -46,7 +44,7 @@ You will get a lot of emails when you turn notifications on. To help stem the ti
 
 ### 4. Join the 18F organization
 
-After you&rsquo;ve enabled 2FA and added your government email address to your profile, hop into [#admins-github](https://18f.slack.com/messages/admins-github/) on Slack and **post the following**: "I've enabled two-factor authentication – please add me (`@username`) to https://github.com/orgs/18F/teams/18f on GitHub." An admin will add you, after which you&rsquo;ll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
+After you&rsquo;ve added your government email address to your profile, hop into [#admins-github](https://18f.slack.com/messages/admins-github/) on Slack and ask to be invited to the [18F team](https://github.com/orgs/18F/teams/18f). An admin will add you, after which you&rsquo;ll need to accept their invite by going [here](https://github.com/orgs/18F/invitation?via_email=1).
 
 ### 5. Make your membership public
 
@@ -98,14 +96,11 @@ Teams can give groups of people administrative, write, or read permissions to 18
 
 Giving outside collaborators (such as contractors, federal partners, and so on) read/write access to your repository is both allowed and _encouraged_ to facilitate the flow of ideas and build a stronger, more decentralized community. Here&rsquo;s our current process to address both operational and security concerns:
 
-1. Ask the collaborator(s) to enable two-factor authentication.
-2. [Create a team](https://help.github.com/articles/adding-people-to-teams-in-an-organization/) whose access we can turn off/on with one button. Separate a staff-only team from a contractor/mixed/collaborator team. In the case of our previous work with contractors, because they did work across 18F, we just named the team `Contractor name`. In other cases, if the collaborators are scoped to a particular project, you can name the team something like `Project name - Collaborators | Skillset`.
-3. In the &ldquo;Description&rdquo; of the team, put something reasonable plus a point-of-contact email address for the collaborators. Ideally this is the address of someone senior — someone you can email if issues come up and who can rally the troops. We need this contact information because people don&rsquo;t always list their email on their GitHub profile.
-4. A mixed or collaborator team should, at maximum, have the &ldquo;Write&rdquo; permission. Admin rights should be limited exclusively to our staff.
-5. Add the members. Ensure that 2FA/MFA (an orange warning sign) is enabled for them on the team page. 18F Infrastructure checks this on onboarding/biweekly audits, but since a user could turn it off at any time and retain their membership in the organization with no notification back to owners, it&rsquo;s always good to triple check.
-
-	If you are not an 18F github admin, you cannot add external team members. Confirm your partners have enabled 2FA and ask the #admins-github Slack channel to add the users to the team. 
-6. Add the relevant repositories.
+1. [Create a team](https://help.github.com/articles/adding-people-to-teams-in-an-organization/) whose access we can turn off/on with one button. Separate a staff-only team from a contractor/mixed/collaborator team. In the case of our previous work with contractors, because they did work across 18F, we just named the team `Contractor name`. In other cases, if the collaborators are scoped to a particular project, you can name the team something like `Project name - Collaborators | Skillset`.
+1. In the &ldquo;Description&rdquo; of the team, put something reasonable plus a point-of-contact email address for the collaborators. Ideally this is the address of someone senior — someone you can email if issues come up and who can rally the troops. We need this contact information because people don&rsquo;t always list their email on their GitHub profile.
+1. A mixed or collaborator team should, at maximum, have the &ldquo;Write&rdquo; permission. Admin rights should be limited exclusively to our staff.
+1. Add the members. If you are not an 18F github admin, ask someone in the #admins-github Slack channel to do so.
+1. Add the relevant repositories.
 
 ## Resources
 
